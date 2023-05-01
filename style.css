@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flex-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.popFont {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+body .container {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1.2rem;
+  background-color: #6E45E2;
+}
+
+@media (max-width: 768px) {
+  body .container {
+    padding: 0;
+  }
+}
+
+body .container .navBar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 90%;
+  font-family: 'Roboto', sans-serif;
+  padding: .4rem;
+  background-color: green;
+  border-radius: .4rem;
+}
+
+@media (max-width: 768px) {
+  body .container .navBar {
+    width: 100%;
+    padding: 0;
+    border-radius: 0rem;
+  }
+}
+
+body .container .navBar .leftNav {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  body .container .navBar .leftNav {
+    width: 60%;
+  }
+}
+
+body .container .navBar .leftNav img {
+  width: 70%;
+}
+
+body .container .navBar .midNav {
+  width: 90%;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  body .container .navBar .midNav {
+    display: none;
+  }
+}
+
+body .container .navBar .midNav a {
+  font-size: 1.3rem;
+}
+
+body .container .navBar .rightNav {
+  width: 10%;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  body .container .navBar .rightNav {
+    width: 20%;
+  }
+}
+
+body .container .navBar .rightNav .bx-search {
+  font-size: 1.5rem;
+}
+
+body .container .navBar .rightNav .bx-menu {
+  font-size: 3rem;
+}
+
+body .container .heroSectn {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
