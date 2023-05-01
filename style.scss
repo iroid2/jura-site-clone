@@ -13,6 +13,7 @@ body{
         flex-direction: column;
         padding-top: 1.2rem;
         background-color: #6E45E2;
+        overflow: hidden;
         @media(max-width:768px){
             padding: 1rem 1rem;
         }
@@ -70,8 +71,52 @@ body{
             }
         }
         .heroSectn{
-            width: 100%;
+            width: 90%;
             height: 100vh;
+            .left-hero{
+                width: 40%;
+                height: 100%;
+                padding-top: 10%;
+                z-index: 999;
+                flex-direction: column;
+                align-items:center ;
+                @media(max-width:768px){
+                    width: 100%;
+                    height: 30vh;
+                    text-align: center;
+                }
+                // background-color: green;
+                h1{
+                    color:RGB(255, 255, 255);
+                    font-size: 44px;
+                    font-weight: 800;
+                    font-family: 'Roboto', sans-serif;
+                }
+                p{
+                    color: white;
+                }
+            }
+            .right-hero{
+                z-index: 500;
+                width: 60%;
+                img{
+                    width: 100%;
+                }
+                @media(max-width:768px){
+                    display: none;
+                }
+            }
+            .bg-circle{
+                background-color: #5D7BDF;
+                width: 40%;
+                height: 90%;
+                border-radius: 50%;
+                position: absolute;
+                left: -8rem;
+                @media(max-width:768px){
+                    display: none;
+                }
+            }
         }
     }
 }

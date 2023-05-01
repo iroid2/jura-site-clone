@@ -53,6 +53,13 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+.fw {
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: white;
+}
+
 body {
   width: 100vw;
 }
@@ -65,6 +72,7 @@ body .container {
           flex-direction: column;
   padding-top: 1.2rem;
   background-color: #6E45E2;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -153,7 +161,70 @@ body .container .navBar .rightNav .bx-menu {
 }
 
 body .container .heroSectn {
-  width: 100%;
+  width: 90%;
   height: 100vh;
+}
+
+body .container .heroSectn .left-hero {
+  width: 40%;
+  height: 100%;
+  padding-top: 10%;
+  z-index: 999;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  body .container .heroSectn .left-hero {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+  }
+}
+
+body .container .heroSectn .left-hero h1 {
+  color: RGB(255, 255, 255);
+  font-size: 44px;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+}
+
+body .container .heroSectn .left-hero p {
+  color: white;
+}
+
+body .container .heroSectn .right-hero {
+  z-index: 500;
+  width: 60%;
+}
+
+body .container .heroSectn .right-hero img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  body .container .heroSectn .right-hero {
+    display: none;
+  }
+}
+
+body .container .heroSectn .bg-circle {
+  background-color: #5D7BDF;
+  width: 40%;
+  height: 90%;
+  border-radius: 50%;
+  position: absolute;
+  left: -8rem;
+}
+
+@media (max-width: 768px) {
+  body .container .heroSectn .bg-circle {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
