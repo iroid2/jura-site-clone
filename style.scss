@@ -73,6 +73,7 @@ body{
         .heroSectn{
             width: 90%;
             height: 100vh;
+            position: relative;
             .left-hero{
                 width: 40%;
                 height: 100%;
@@ -108,11 +109,12 @@ body{
             }
             .bg-circle{
                 background-color: #5D7BDF;
-                width: 40%;
+                width: 50%;
                 height: 90%;
                 border-radius: 50%;
                 position: absolute;
-                left: -8rem;
+                left: -14rem;
+                top: 2rem;
                 @media(max-width:768px){
                     display: none;
                 }
