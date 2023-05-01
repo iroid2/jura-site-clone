@@ -68,7 +68,7 @@ body .container {
 
 @media (max-width: 768px) {
   body .container {
-    padding: 0;
+    padding: 1rem 1rem;
   }
 }
 
@@ -78,7 +78,7 @@ body .container .navBar {
       align-self: center;
   width: 90%;
   font-family: 'Roboto', sans-serif;
-  padding: .4rem;
+  padding: .7rem;
   background-color: green;
   border-radius: .4rem;
 }
@@ -86,6 +86,8 @@ body .container .navBar {
 @media (max-width: 768px) {
   body .container .navBar {
     width: 100%;
+    padding: 1rem 1rem;
+    background-color: #6E45E2;
     padding: 0;
     border-radius: 0rem;
   }
@@ -97,12 +99,18 @@ body .container .navBar .leftNav {
 
 @media (max-width: 768px) {
   body .container .navBar .leftNav {
-    width: 60%;
+    width: 70%;
   }
 }
 
 body .container .navBar .leftNav img {
   width: 70%;
+}
+
+@media (max-width: 768px) {
+  body .container .navBar .leftNav img {
+    width: 40%;
+  }
 }
 
 body .container .navBar .midNav {
