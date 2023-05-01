@@ -21,7 +21,7 @@ body{
             width: 90%;
             font-family: 'Roboto', sans-serif;
             padding: .7rem;
-            background-color: green;
+            background-color: #12141C;
             border-radius: .4rem;
             @media(max-width:768px){
                 width: 100%;
@@ -44,18 +44,20 @@ body{
             }
             .midNav{
                 width: 90%;
-                gap: 2rem;
+                gap: 3rem;
                 align-items:center ;
                 @media(max-width:768px){
                     display: none;
                 }
                 a{
-                    font-size: 1.3rem
+                    font-size: 1rem
+                   
                 }
             }
             .rightNav{
                 width: 10%;
                 color: white;
+                gap: .6rem;
                 @media(max-width:768px){
                     width: 20%;
                 }

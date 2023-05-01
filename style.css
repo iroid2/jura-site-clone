@@ -46,6 +46,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .popFont {
@@ -79,7 +80,7 @@ body .container .navBar {
   width: 90%;
   font-family: 'Roboto', sans-serif;
   padding: .7rem;
-  background-color: green;
+  background-color: #12141C;
   border-radius: .4rem;
 }
 
@@ -115,7 +116,7 @@ body .container .navBar .leftNav img {
 
 body .container .navBar .midNav {
   width: 90%;
-  gap: 2rem;
+  gap: 3rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -128,12 +129,13 @@ body .container .navBar .midNav {
 }
 
 body .container .navBar .midNav a {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 body .container .navBar .rightNav {
   width: 10%;
   color: white;
+  gap: .6rem;
 }
 
 @media (max-width: 768px) {
