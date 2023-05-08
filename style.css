@@ -47,7 +47,23 @@ a {
 
 .services {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #EBEBEB;
+}
+.services button {
+  align-self: center;
+  padding: 1rem 4.5rem;
+  margin-left: 40%;
+  border: none;
+  border-radius: 7px;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background-color: #6C43DE;
+  color: white;
+  font-weight: 600;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .services .top-services {
   text-align: center;
@@ -90,7 +106,7 @@ a {
 }
 .services .bottom-services .serv-card {
   width: 28%;
-  background-color: red;
+  background-color: #FFFFFF;
   padding: 5rem 2rem;
   border-radius: 8px;
 }
@@ -100,7 +116,7 @@ a {
   }
 }
 .services .bottom-services .serv-card h3 {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 body {
