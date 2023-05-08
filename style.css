@@ -224,10 +224,9 @@ body .container .heroSectn {
   }
 }
 body .container .heroSectn .swiper {
-  width: 35%;
+  width: 40%;
   height: 75%;
   padding-top: 10%;
-  overflow: hidden;
   z-index: 999;
   flex-direction: column;
   align-items: center;
@@ -237,7 +236,6 @@ body .container .heroSectn .swiper {
     width: 100%;
     height: 100%;
     padding: 1rem 1rem;
-    background-color: red;
     text-align: center;
   }
 }
@@ -269,7 +267,13 @@ body .container .heroSectn .swiper .swiper-wrapper .swiper-slide h1 {
 }
 @media (max-width: 768px) {
   body .container .heroSectn .swiper .swiper-wrapper .swiper-slide h1 {
-    font-size: 57px;
+    font-size: 37px;
+  }
+}
+@media (max-width: 768px) {
+  body .container .heroSectn .swiper .swiper-wrapper .swiper-slide h2 {
+    font-size: 24px;
+    font-weight: 200;
   }
 }
 body .container .heroSectn .swiper .swiper-wrapper .swiper-slide p {
@@ -278,12 +282,12 @@ body .container .heroSectn .swiper .swiper-wrapper .swiper-slide p {
 }
 @media (max-width: 768px) {
   body .container .heroSectn .swiper .swiper-wrapper .swiper-slide p {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 body .container .right-hero {
   z-index: 500;
-  width: 65%;
+  width: 60%;
   margin-left: 2rem;
 }
 body .container .right-hero img {

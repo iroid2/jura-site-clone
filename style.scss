@@ -85,24 +85,26 @@ body{
            
         
             .swiper{
-                width: 35%;
+                width: 40%;
                  height: 75%;
                  padding-top: 10%;
-                 overflow: hidden;
+                //  overflow: hidden;
                 //  background-color: red;
                  z-index: 999;
                  flex-direction: column;
                  align-items:center ;
+                 
                  @media(max-width:768px){
                      width: 100%;
                      height: 100%;
                      padding: 1rem 1rem;
-                     background-color: red;
+                    //  background-color: red;
                     text-align: center;
                 }
                 .swiper-wrapper{
                     width: 100%;
                     height: 100%;
+                   
                     .swiper-slide{
                         width: 100%;
                         height: 100%;
@@ -123,14 +125,20 @@ body{
                             font-weight: 800;
                             font-family: 'Roboto', sans-serif;
                             @media(max-width:768px){
-                                font-size: 57px;
+                                font-size: 37px;
+                            }
+                        }
+                        h2{
+                            @media(max-width:768px){
+                                font-size: 24px;
+                                font-weight: 200;
                             }
                         }
                         p{
                             color: white;
                             font-size: 24px;
                             @media(max-width:768px){
-                                font-size: 30px;
+                                font-size: 22px;
                             }
                             
                         }
@@ -141,7 +149,7 @@ body{
             }
             .right-hero{
                 z-index: 500;
-                width: 65%;
+                width: 60%;
                 margin-left: 2rem;
 
                 img{
