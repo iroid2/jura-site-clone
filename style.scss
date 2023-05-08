@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @import'./variabless/variables';
+@import'./services/services';
 
 
 body{
@@ -73,33 +74,74 @@ body{
         .heroSectn{
             width: 90%;
             height: 100vh;
+            gap: 4rem;
             position: relative;
-            .left-hero{
-                width: 40%;
-                height: 100%;
-                padding-top: 10%;
-                z-index: 999;
-                flex-direction: column;
-                align-items:center ;
-                @media(max-width:768px){
-                    width: 100%;
-                    height: 30vh;
+            @media(max-width:768px){
+                height: 80%;
+                text-align: center;
+                padding: 1rem 0rem;
+            }
+           
+        
+            .swiper{
+                width: 35%;
+                 height: 75%;
+                 padding-top: 10%;
+
+                //  background-color: red;
+                 z-index: 999;
+                 flex-direction: column;
+                 align-items:center ;
+                 @media(max-width:768px){
+                     width: 100%;
+                     height: 100%;
+                     padding: 1rem 1rem;
+                     background-color: red;
                     text-align: center;
                 }
-                // background-color: green;
-                h1{
-                    color:RGB(255, 255, 255);
-                    font-size: 44px;
-                    font-weight: 800;
-                    font-family: 'Roboto', sans-serif;
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide{
+                        width: 100%;
+                        height: 100%;
+                        button{
+                            border: none;
+                            margin-top: 2rem;
+                            border-radius: 1rem;
+                            padding: 1rem 2.7rem;
+                            @media(max-width:768px){
+                                margin-top: .7rem;
+                            }
+                        }
+                        // background-color: green;
+                        h1{
+                            color:RGB(255, 255, 255);
+                            font-size: 54px;
+                            font-weight: 800;
+                            font-family: 'Roboto', sans-serif;
+                            @media(max-width:768px){
+                                font-size: 57px;
+                            }
+                        }
+                        p{
+                            color: white;
+                            font-size: 24px;
+                            @media(max-width:768px){
+                                font-size: 30px;
+                            }
+                            
+                        }
+                    }
                 }
-                p{
-                    color: white;
-                }
+               
+            }
             }
             .right-hero{
                 z-index: 500;
-                width: 60%;
+                width: 65%;
+                margin-left: 2rem;
+
                 img{
                     width: 100%;
                 }
@@ -113,7 +155,7 @@ body{
                 height: 90%;
                 border-radius: 50%;
                 position: absolute;
-                left: -14rem;
+                left: -20rem;
                 top: 2rem;
                 @media(max-width:768px){
                     display: none;
@@ -121,4 +163,3 @@ body{
             }
         }
     }
-}
