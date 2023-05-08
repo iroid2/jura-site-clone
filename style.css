@@ -47,7 +47,8 @@ a {
 
 .services {
   width: 100%;
-  background-color: #EBEBEB;
+  background-color: #f8f5f5;
+  padding-bottom: 4rem;
 }
 .services button {
   align-self: center;
@@ -78,6 +79,8 @@ a {
 .services .top-services h1 {
   font-size: 4rem;
   font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
   .services .top-services h1 {
@@ -95,7 +98,7 @@ a {
 }
 .services .top-services p {
   font-size: 1.17rem;
-  color: #9c9d9e;
+  color: #999FAE;
 }
 .services .bottom-services {
   width: 100%;
@@ -123,6 +126,10 @@ a {
 }
 .services .bottom-services .serv-card h3 {
   font-weight: 900;
+  font-size: 1.5rem;
+}
+.services .bottom-services .serv-card p {
+  color: #999FAE;
 }
 
 body {
