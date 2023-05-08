@@ -65,6 +65,12 @@ a {
   left: 0;
   right: 0;
 }
+@media (max-width: 768px) {
+  .services button {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+}
 .services .top-services {
   text-align: center;
   margin-top: 5rem;
@@ -213,6 +219,7 @@ body .container .heroSectn .swiper {
   width: 35%;
   height: 75%;
   padding-top: 10%;
+  overflow: hidden;
   z-index: 999;
   flex-direction: column;
   align-items: center;
