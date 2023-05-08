@@ -210,7 +210,8 @@ body .container .heroSectn {
 }
 @media (max-width: 768px) {
   body .container .heroSectn {
-    height: 80%;
+    height: 84%;
+    width: 100%;
     text-align: center;
     padding: 1rem 0rem;
   }
@@ -250,6 +251,7 @@ body .container .heroSectn .swiper .swiper-wrapper .swiper-slide button {
 @media (max-width: 768px) {
   body .container .heroSectn .swiper .swiper-wrapper .swiper-slide button {
     margin-top: 0.7rem;
+    margin-bottom: 1rem;
   }
 }
 body .container .heroSectn .swiper .swiper-wrapper .swiper-slide h1 {
