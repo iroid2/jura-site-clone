@@ -132,6 +132,41 @@ a {
   color: #999FAE;
 }
 
+.works {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.works .top-services {
+  text-align: center;
+  margin-top: 5rem;
+}
+.works .top-services h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+  color: white;
+}
+@media (max-width: 768px) {
+  .works .top-services h1 {
+    font-size: 2.7rem;
+  }
+}
+.works .top-services h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #38F9D7;
+}
+@media (max-width: 768px) {
+  .works .top-services h4 {
+    font-size: 1.4rem;
+  }
+}
+.works .top-services p {
+  font-size: 1.17rem;
+  color: #999FAE;
+}
+
 body {
   width: 100vw;
 }
