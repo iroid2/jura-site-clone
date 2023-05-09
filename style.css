@@ -166,6 +166,23 @@ a {
   font-size: 1.17rem;
   color: #999FAE;
 }
+.works .bottom-services {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+.works .bottom-services .swiper {
+  width: 100%;
+}
+.works .bottom-services .swiper .swiper-wrapper {
+  width: 100%;
+}
+.works .bottom-services .swiper .swiper-wrapper .swiper-slide {
+  width: 30%;
+  background-color: red;
+}
+.works .bottom-services .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
 
 body {
   width: 100vw;

@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     autoplay: {
-        delay: 100,
+        delay: 2000,
         disableOnInteraction: false,
       },
     // If we need pagination
@@ -22,27 +22,33 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
-const works = new Swiper('#works', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    autoplay: {
-        delay: 100,
-        disableOnInteraction: false,
-      },
-    // If we need pagination
+  var works = new Swiper("#works", {
+    slidesPerView: 3,
+    spaceBetween: 5,
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
+      clickable: true,
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    breakpoints: {
+      120: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
     },
   });

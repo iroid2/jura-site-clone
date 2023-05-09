@@ -29,4 +29,21 @@
             color: #999FAE;
         }
     }
+    .bottom-services{
+        width: 100%;
+        padding: 1rem 3rem;
+        .swiper{
+            width: 100%;
+            .swiper-wrapper{
+                width: 100%;
+                .swiper-slide{
+                    width: 30%;
+                    background-color: red;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
