@@ -177,8 +177,20 @@ a {
   width: 100%;
 }
 .works .bottom-services .swiper .swiper-wrapper .swiper-slide {
-  width: 30%;
-  background-color: red;
+  width: 25%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.works .bottom-services .swiper .swiper-wrapper .swiper-slide .overally {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  background-color: #AF93E0;
+  opacity: 0;
+}
+.works .bottom-services .swiper .swiper-wrapper .swiper-slide .overally:hover {
+  opacity: 0.8;
 }
 .works .bottom-services .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
