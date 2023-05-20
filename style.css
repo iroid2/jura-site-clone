@@ -228,6 +228,10 @@ a {
   width: 100%;
 }
 
+.clients {
+  width: 100%;
+}
+
 body {
   width: 100vw;
 }
@@ -240,7 +244,7 @@ body .container {
 }
 @media (max-width: 768px) {
   body .container {
-    padding: 1rem 1rem;
+    padding: 1rem 0.6rem;
   }
 }
 body .container .navBar {
@@ -274,6 +278,8 @@ body .container .navBar .leftNav img {
 @media (max-width: 768px) {
   body .container .navBar .leftNav img {
     width: 40%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 body .container .navBar .midNav {

@@ -6,6 +6,7 @@
 @import'./variabless/variables';
 @import'./services/services';
 @import'./works-section/works';
+@import'./clients';
 
 
 body{
@@ -17,7 +18,7 @@ body{
         background-color: #6E45E2;
         overflow: hidden;
         @media(max-width:768px){
-            padding: 1rem 1rem;
+            padding: 1rem .6rem;
         }
         .navBar{
             align-self: center;
@@ -26,6 +27,7 @@ body{
             padding: .7rem;
             background-color: #12141C;
             border-radius: .4rem;
+            // position: sticky;
             @media(max-width:768px){
                 width: 100%;
                 padding: 1rem 1rem;
@@ -42,6 +44,7 @@ body{
                     width: 70%;
                     @media(max-width:768px){
                         width: 40%;
+                        object-fit: contain;
                     }
                 }
             }
